@@ -845,6 +845,29 @@
         <h2>EXPERIENCIA LABORAL</h2>
       </div>
 
+      <!-- Job 0: AMI GROUP (actual) -->
+      <div class="card reveal">
+        <div class="job-header">
+          <div>
+            <h3>Soporte IT</h3>
+            <div class="job-company">AMI GROUP (Dash / Grid / NBA Store) — Pilar, Buenos Aires</div>
+          </div>
+          <span class="job-date">JUL 2026 — ACTUAL</span>
+        </div>
+        <ul class="pixel-list">
+          <li>Primera línea de respuesta ante incidentes operativos y de transacciones en tiendas</li>
+          <li>Gestión y análisis del POS Napse: transacciones entre depósito y tiendas, ajuste y control de stock</li>
+          <li>Administración de usuarios del sistema de punto de venta</li>
+          <li>Preparación de equipos de trabajo: PCs de oficina y POS para tiendas</li>
+          <li>Armado, limpieza y reparación de computadoras y periféricos</li>
+          <li>Análisis de incidentes con Firewall, impresoras, Access Points y Switches (nivel físico y cableado)</li>
+          <li>Soporte remoto mediante VNC y TeamViewer</li>
+          <li>Gestión de pantallas digitales con Vnnox y hardware NovaStar (armado e instalación)</li>
+          <li>Centralización y seguimiento de tickets mediante GLPI</li>
+          <li>Intermediación con proveedores del sistema de facturación para incidentes escalados</li>
+        </ul>
+      </div>
+
       <!-- Job 1: OnTecno -->
       <div class="card reveal">
         <div class="job-header">
@@ -852,7 +875,7 @@
             <h3>Help Desk Technician</h3>
             <div class="job-company">OnTecno — Pilar, Buenos Aires</div>
           </div>
-          <span class="job-date">SEP 2024 — ACTUAL</span>
+          <span class="job-date">SEP 2024 — JUL 2026</span>
         </div>
         <ul class="pixel-list">
           <li>Gestión y mantenimiento de landing page del local</li>
@@ -1035,6 +1058,20 @@
           </div>
         </div>
 
+        <div class="card skill-category reveal">
+          <h3>🖥 SOPORTE IT</h3>
+          <div class="tags">
+            <span class="tag">GLPI</span>
+            <span class="tag">TeamViewer</span>
+            <span class="tag">VNC</span>
+            <span class="tag">Napse POS</span>
+            <span class="tag">Vnnox</span>
+            <span class="tag">NovaStar</span>
+            <span class="tag">Firewall</span>
+            <span class="tag">Switching</span>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -1200,6 +1237,8 @@
   sections.forEach(s => sectionObserver.observe(s));
 
   // ─── 5. DRAG-SELECT ──────────────────────────────────
+  // Mantener clic + arrastrar muestra un rectángulo de selección
+  // y pinta las cards que toca, igual que seleccionar en el escritorio.
 
   const dragRect = document.createElement('div');
   dragRect.id = 'drag-rect';
